@@ -1,0 +1,34 @@
+{
+    "name": "vswteam/laravel-hashed-naming",
+    "description": "A trait to hashed naming methods to a class",
+    "keywords": [
+        "VSWTeam",
+        "laravel",
+        "hashed-naming"
+    ],
+    "homepage": "https://github.com/VSWTeam/laravel-hashed-naming",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VSWTeam\\LaravelHashedNaming\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VSWTeam\\LaravelHashedNaming\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
